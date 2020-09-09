@@ -1,0 +1,32 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: resetkaspersky - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x2c0a /fo"Debug/resetkaspersky.res" /d "_DEBUG" /d "_AFXDLL" "C:\C++\resetkaspersky\resetkaspersky.rc"" 
+Creating temporary file "C:\DOCUME~1\daltomi\CONFIG~1\Temp\RSP26.tmp" with contents
+[
+Wininet.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/resetkaspersky.pdb" /debug /machine:I386 /out:"Debug/resetkaspersky.exe" /pdbtype:sept 
+".\Debug\CLog.obj"
+".\Debug\CResources.obj"
+".\Debug\register.obj"
+".\Debug\resetkaspersky.obj"
+".\Debug\resetkasperskyDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\resetkaspersky.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\daltomi\CONFIG~1\Temp\RSP26.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+resetkaspersky.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

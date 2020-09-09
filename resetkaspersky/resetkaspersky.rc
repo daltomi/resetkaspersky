@@ -1,0 +1,230 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Modern) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_RESETKASPERSKY_DIALOG DIALOGEX 0, 0, 222, 95
+STYLE DS_MODALFRAME | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW | WS_EX_APPWINDOW
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Proceder",IDOK,175,10,40,14
+    PUSHBUTTON      "Cancelar",IDCANCEL,175,30,40,14
+    EDITTEXT        IDC_EDIT1,5,5,163,73,ES_MULTILINE | ES_READONLY | NOT 
+                    WS_BORDER | NOT WS_TABSTOP,WS_EX_CLIENTEDGE
+    CONTROL         "Barra de estado",IDC_STATUS,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,0,85,220,10,WS_EX_STATICEDGE
+    PUSHBUTTON      "Web",IDC_BUTTON1,175,60,40,12
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "0c0a04b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Aplicación MFC resetkaspersky\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "resetkaspersky\0"
+            VALUE "LegalCopyright", "Copyright (C) 2010\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "resetkaspersky.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Aplicación resetkaspersky\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0xc0a, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_RESETKASPERSKY_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 215
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Spanish (Modern) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Castilian) (unknown sub-lang: 0xB) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESS)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, 0xB
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESP)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 10, 3\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\resetkaspersky.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.esp\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\resetkaspersky.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\rk_back.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_EOPEN               "Acceso denegado a la clave.\r\n\r\nRecuerde deshabilitar la Autoprotección y la protección Residente.\r\n\r\nLuego utilice el botón ""Proceder"" para continuar."
+    IDS_ENEXIST             "Error, no existe clave de registro.\r\n\r\nEste error sucede cuando no esta instalado Kaspersky por lo tanto no se puede proceder."
+    IDS_OKREBOOT1           "¡ Correcto ! \r\n\r\nDeberá reiniciar el sistema para que al antivirus busque la nueva licencia."
+    IDS_OKREBOOT2           "¿Desea reiniciar el sistema ahora?"
+    IDS_ENSUBKEY            "Error en sub-clave de registro.\r\n\r\nEste error sucede cuando se ha desinstalado Kaspersky  o la sub-clave está corrupta.(Vea archivo log)"
+    IDS_VERSION             "1.9.2"
+    IDS_MOREDATA            "Protección: Error grave.\r\n\r\nEl tamaño de la clave de registro es mayor que de lo estimado.Las causas posibles son: clave corrupta o clave desconocida por nuevo formato del KAS.\r\nVea el archivo resetkaspersky.log"
+    IDS_FAILCONEC           "No tiene acceso a Internet para validar la Licencia de Kaspersky.\r\n\r\nVerifique su conexión intentando acceder con su explorador web a cualquier sitio.\r\n\r\nSi logra conectarse ejecute éste programa nuevamente."
+    IDS_WAIT                "\r\nRecuerde que necesita estar conectado a Internet para validar la licencia al reiniciar el sistema.\r\n\r\nUtilice el botón ""Proceder"" para continuar..."
+    IDS_WEB                 "http://sites.google.com/site/daltomi/resetkaspersky"
+    IDS_KEY_WXP             "SOFTWARE\\KasperskyLab\\protected\\AVP9\\environment"
+    IDS_FAILSUPPORT         "La versión de su sistema operativo no está soportada.\r\tSólo para los Windows: 2000, XP, Vista y  NT6.1(Windows 7)"
+    IDS_STATUS_LOG          "Error capturado en archivo: %s"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_FAILOPENAPP         "Ya existe una instancia abierta del programa.\r\nCon una ya es más que suficiente. ¿no le parece? :-)"
+    IDS_CLOSE               "Cerrar"
+    IDS_NOADMIN             "No tiene permisos para continuar.\r\n\r\nNecesita lanzar el programa con alguna cuenta que tenga privilegios de Administrador,\r\n asi me evita muchos dolores de cabeza :-)"
+END
+
+#endif    // Spanish (Castilian) (unknown sub-lang: 0xB) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESP)
+#ifdef _WIN32
+LANGUAGE 10, 3
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\resetkaspersky.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.esp\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
